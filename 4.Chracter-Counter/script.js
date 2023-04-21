@@ -5,7 +5,7 @@ const remainingCounterEl = document.querySelector('.remaining-counter');
 textAreaEl.addEventListener('keyup', ()=> {
     console.log('Changed')
     updateCounter()
-})
+});
 
 function updateCounter() {
     let totalChracters = textAreaEl.value.length;
