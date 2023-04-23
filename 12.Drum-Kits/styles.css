@@ -33,6 +33,7 @@ h1 {
     background-image: url('assets/tom.png');
     background-size: cover;
     color: white;
+    text-transform: capitalize;
     font-family: cursive;
     text-shadow: 2px 1px 4px rgba(0, 0, 0, .3);
     cursor: pointer;
